@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>FORMULARIO DE PRODUCTOS Y SERVICIOS</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <link href="estilosdelformulario/misestilos.css" rel="stylesheet" type="text/css"/>
+        
+    </head>
+    <body>
+        <div id="cabecera">
+            </div>
+        <H1> FORMULARIO DE GESTION DE PRODUCTOS</H1>
+            
+        <div id="menu">
+            <ul>
+                <li>INICIO</li>
+                <li>PAGINA 2</li>
+                <li>PAGINA 3</li>
+            </ul>
+            
+            <div id="cuerpo">
+                <h2> INFORMACION SOBRE EL PRODUCTO </h2>
+                
+            <form>
+                <div>
+                        <label for="nombre"> Nombre del producto </label>
+                    <input name="nombre" id="nombre" type="text" />
+                    
+                <div>    
+                    <label for="descripcion"> descripcion</label>
+                    <textarea name="descripcion" cols="100" rows="5"> </textarea>
+                 </div>   
+                 
+                    
+                <div>    
+                   <label for="Almacen"> DISPONIBLE EN:</label> 
+         <input type="checkbox"" id="almacen" name="almacen1" value="Almacen1" /> Almacen1
+                
+         <input type="checkbox"" id="almacen" name="almacen2" value="Almacen2" /> Almacen2             
+                    </div>  
+                    
+             <div>       
+                     <div>    
+                  <label for="PROVEEDOR"> PROVEEDOR:</label> 
+                  <input type="radio"" name="proveedor" value="distribuidora corripio" /> DISTRIBUIDORA CORRIPIO
+                
+                  <input type="radio"  name="proveedor" value="grupo ramos" /> GRUPO RAMOS
+                  <input type="radio"  name="proveedor" value="radio centro" />RADIO CENTRO
+                                      </div>
+                 
+                 <div>
+                     <label for="pais"> PAIS DE PROCEDENCIA:</label>
+                     <select name="pais">
+                         <option value="select" selected="seleccione" </option> 
+                         <option value=""> SELECCIONE1 </option>
+                         <option value="DOMINICANA"> REPUBLICA DOMINICANA </option>
+                         <option value="china"> CHINA </option>
+                         <option value="usa"> ESTADOS UNIDOS</option>
+                         <option value="otro"> OTRO</option>
+                 </select>
+                 </div>
+                 </form>
+                
+                <div id="pie">
+                    Calle P/ La Otra Banda. Santiago, Republica Dominicana <br>
+                    
+                    Telf: 829-546-1974 Cel: 809-247-2478 <br>
+                    
+                </div>
+                     
+            </div>
+    </body>
+</html>
